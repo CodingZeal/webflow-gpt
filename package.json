@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/CodingZeal/webflow-gpt/issues"
   },
-  "homepage": "https://github.com/CodingZeal/webflow-gpt#readme"
+  "homepage": "https://github.com/CodingZeal/webflow-gpt#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
