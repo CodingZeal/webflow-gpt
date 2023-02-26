@@ -10,8 +10,8 @@ const generateMetaDescription = async (postBody) => {
   try {
     const response = await openai.createCompletion({
       model: "text-davinci-003",
-      prompt: `In at least 100 words, write a SEO meta description for this text: ${postBody}`,
-      temperature: 0.6,
+      prompt: `In 25 words, write a SEO meta description for this HTML text: ${postBody}`,
+      temperature: 0.2,
       max_tokens: 100,
     });
     return response.data.choices;
