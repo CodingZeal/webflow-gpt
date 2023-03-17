@@ -8,7 +8,9 @@ This repo assumes the following:
   - When requesting the items from your blog collection, we assume that you have the key `meta-description` in each item of your payload.
   - We also assume you have a `post-body` key in your payload with the contents of your blog. We feed your post data to OpenAI to generate meta descriptions.
 
-If you don't have a collection in Webflow with `meta-description` and `post-body` fields, make sure you build that first and publish your site. To have your new meta descriptions show up in search engines, you'll also need to set up meta descriptions for your blog collection's template pages. You can then have Webflow dynamically insert the `meta-description` from your collection. See [Webflow's docs](https://university.webflow.com/lesson/seo-title-meta-description) for more details on setting up meta descriptions.
+If you don't have a collection in Webflow with `meta-description` and `post-body` fields, make sure you build that first and publish your site.
+
+To have your new meta descriptions show up in search engines, you'll also need to set up meta descriptions for your blog collection's template pages. You can then have Webflow dynamically insert the `meta-description` from your collection. See [Webflow's docs](https://university.webflow.com/lesson/seo-title-meta-description) for more details on setting up meta descriptions.
 
 ## Ready, Aim, Duck!
 1. After downloading this repo (and setting up Webflow), install all NPM packages:
