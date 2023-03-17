@@ -8,7 +8,7 @@
     "db:add:posts": "node ./api/webflow/posts.js",
     "db:update:descriptions": "node ./api/webflow/update-meta.js",
     "db:seed": "npm run db:create && npm run db:add:posts && npm run db:update:descriptions",
-    "magic": "npm run db:seed && node reports/index.js",
+    "magic": "echo \"Time for some magic 🪄\n\" && npm run db:seed && node reports/index.js",
     "reboot": "rm -f ./reports/*csv && echo \"Deleted all reports  🗑️\" && npm run db:drop",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
