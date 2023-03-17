@@ -1,7 +1,7 @@
 {
   "name": "webflow-gpt",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "Lets have AI write some meta descriptions for our blog. Shall we?",
   "scripts": {
     "db:create": "node ./database/create.js",
     "db:drop": "rm -f ./database/DB_* && echo \"Dropped all databases  🗑️\"",
