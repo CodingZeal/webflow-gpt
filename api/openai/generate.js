@@ -13,10 +13,10 @@ const generateMetaDescription = async (postBody) => {
       prompt: `Read this blog post and generate a meta description with up to 150 characters: ${postBody}`,
       temperature: 0.2,
       max_tokens: 200,
-    });
-    return response.data.choices;
+    })
+    return response.data.choices
   } catch(error) {
-    throw `Error with OpenAI API request: ${error.message}`;
+    console.error(`Error with OpenAI API request: ${error.message}`)
   }
 }
 
